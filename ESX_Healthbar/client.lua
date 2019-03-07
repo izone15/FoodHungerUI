@@ -8,7 +8,7 @@ Citizen.CreateThread(function()
      local armor = GetPedArmour(ped)
         SendNUIMessage({
             show = IsPauseMenuActive(),
-            health = health,
+            health = (GetEntityHealth(GetPlayerPed(-1))-100),
             armor = armor,
             st = status,
         });
