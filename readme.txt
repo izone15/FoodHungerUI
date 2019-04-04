@@ -5,6 +5,7 @@ If any of you are using a cinematic script just put st = false on first and st =
 
 To fix esx_basicneeds go into esx_basicneed/client/main.lua
 Find this 
+
 AddEventHandler('esx_status:loaded', function(status)
 
 	TriggerEvent('esx_status:registerStatus', 'hunger', 1000000, '#CFAD0F', function(status)
