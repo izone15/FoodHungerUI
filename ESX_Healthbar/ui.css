@@ -1,8 +1,8 @@
 #heal {
     position: absolute;
-    left: 1.34%;
+    left: 1.50%;
     bottom: 1.8%;
-    width: 7.1%;
+    width: 7.05%;
     height: 0.80%;
     padding: 0;
     border: 2px solid black;
@@ -12,9 +12,9 @@
 
 #armor {
     position: absolute;
-    left: 8.5%;
+    left: 8.55%;
     bottom: 1.8%;
-    width: 6.85%;
+    width: 6.80%;
     height: 0.80%;
     padding: 0;
     border: 2px solid black;
@@ -24,25 +24,25 @@
 
 #hunger {
     position: absolute;
-    left: 1.35%;
+    left: 1.50%;
     bottom: 0.75%;
-    width: 7.1%;
+    width: 7.05%;
     height: 0.80%;
     padding: 0;
     border: 2px solid black;
     float:left;
-    background:#707070;
+    background:#414141;
 }
 #thirst {
     position: absolute;
-    left: 8.5%;
+    left: 8.55%;
     bottom: 0.75%;
-    width: 6.85%;
+    width: 6.80%;
     height: 0.80%;
     padding: 0;
     border: 2px solid black;
     float:left;
-    background:#707070;
+    background:#414141;
 }
 
 
@@ -58,16 +58,18 @@
 }
 
 #boxHunger {
-    background: #ff7f50;
-
+    background: #c57431;
+    filter: blur(0.8px) contrast(200%);
 }
 #boxThirst {
-    background: #61749c;
+    background: #54dadf;
+    filter: blur(0.8px) contrast(200%);
 }
 
 #boxArmor {
     background: #7fb2ff;
 }
+
 
 body {
     overflow: hidden;
