@@ -3,7 +3,7 @@ For further questions contact me on discord KeN1cs#8277
 This is bars for hunger,thirst,armor and health. If you get drunk an extra bar will show up beside them.
 If any of you are using a cinematic script just put st = false on first and st = true on second.
 
-To fix esx_basicneeds go into esx_basicneed/client/main.lua
+To fix esx_basicneeds go into esx_basicneeds/client/main.lua
 Find this 
 
 AddEventHandler('esx_status:loaded', function(status)
