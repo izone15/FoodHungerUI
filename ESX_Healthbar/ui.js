@@ -4,6 +4,7 @@ $(document).ready(function() {
         $(".container").css("display",data.show? "none":"block");
         $("#boxHeal").css("width",data.health + "%");
         $("#boxArmor").css("width",data.armor + "%");
+        $("#boxOxygen").css("width",data.oxygen + "%");
         if (event.data.action == "updateStatus") {
             updateStatus(event.data.st);
         }

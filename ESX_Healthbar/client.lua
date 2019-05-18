@@ -10,6 +10,8 @@ Citizen.CreateThread(function()
             show = IsPauseMenuActive(),
             health = (GetEntityHealth(GetPlayerPed(-1))-100),
             armor = armor,
+            oxygen = GetPlayerUnderwaterTimeRemaining(PlayerId()) * 10,
+            st = status,
         });
     end
 end)
